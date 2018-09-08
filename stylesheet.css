@@ -1,0 +1,76 @@
+/*Acessibility*/
+/**************/
+
+/*General*/
+/*********/
+body {
+	margin: 0;
+	font-family: 'Arial';
+}
+main {
+	max-width: 1000px;
+	margin: auto;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.section-end{
+	margin-top: 250px;
+}
+/*Layout*/
+/********/
+
+.table-of-contents {
+	list-style-type: lower-alpha;
+	border: 1px solid black;
+	max-width: 150px;
+	padding-right: 25px;	
+}
+.table-of-contents a {
+	text-decoration: none;
+}
+.table-of-contents a li {
+	border-bottom: 1px dashed grey;
+
+}
+code {
+	
+	border: 1px solid black;
+	max-width: 500px;
+	background-color: grey;
+	color: white;
+	display: inline-block;
+}
+.section-header {
+	border-top: 2px solid black;
+	padding: 10px 0 0 0;
+}
+h2 {
+	border-bottom: 1px solid grey;	
+}
+/*Typography*/
+/************/
+.data-table{
+	text-align: center;
+}	
+
+tr, td, th {
+	border: 1px solid black;
+	padding: 15px 0px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;	
+}
+.header {
+	text-align: center;
+}
+.question {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+
