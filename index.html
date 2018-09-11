@@ -12,7 +12,7 @@
 		<p>Repository located at <a href="https://github.com/PR1NTER13/notes">PR1NTER13 Github</a></p>
 		<h1>Computer/Math TOC</h1>
 		<ul class="table-of-contents clearfix">
-			<a href="index.html#general"><li>General Computer Stuff</li></a>
+			<a href="index.html#general"><li>General</li></a>
 			<a href="index.html#html"><li>HTML</li></a>
 			<a href="index.html#css"><li>CSS</li></a>
 			<a href="index.html#javascript"><li>Javascript</li></a> 
@@ -21,6 +21,7 @@
 			<a href="index.html#algorithms"><li>Algorithms</li></a>
 			<a href="index.html#vim"><li>Vim</li></a>
 			<a href="index.html#git"><li>Git</li></a>
+			<a href="index.html#internet-protocol-suite"><li>Internet Protocl Suite</li></a>
 			<a href="index.html#bitcoin"><li>Bitcoin</li></a>
 			<a href="index.html#ethereum"><li>Ethereum</li></a>
 
@@ -42,7 +43,7 @@
 				<p>stands for hyper text transfer protocol.</p>
 
 				<h2 id="general-design">Design</h2>
-					<p>Four types of design 
+					<p>Four types of web page design 
 						<ol>
 							<li>Fixed</li>
 							<li>Liquid</li>
@@ -393,33 +394,7 @@
 			<p>Three object groups: Browser, Document, Global.</p>
 			<p>Objects can contain functions and properties.</p>
 			<!-- below is temporarily out of service. Trying to make line charts. -->
-			<p><span id="object-father-1">Window</span> 
-				<p>
-					<span class="object-child-1">Navigator</span>
-					<span class="object-child-1">Screen</span>
-					<span class="object-child-1">History</span>
-					<span class="object-child-1">Location</span>
-					<span id = "object-father-2" class="object-child-1">Document</span>
-				</p>
-				<p>
-					<span class="object-child-2">Title</span>
-					<span class="object-child-2">div</span>
-					<span class="object-child-2">p</span>
-					<span class="object-child-2">form</span>
-					<span class="object-child-2">img</span>
-					<span class="object-child-2">a</span>
-					<span class="object-child-2">video</span>
-				</p>
-			<span id="object-father-3">Core Language/Global Objects</span>
-				<p>
-					<span class="object-child-3">Array</span>
-					<span class="object-child-3">Boolean</span>
-					<span class="object-child-3">Date</span>
-					<span class="object-child-3">Math</span>
-					<span class="object-child-3">Number</span>
-					<span class="object-child-3">String</span>
-				</p>
-			</p>
+			<p>Look up Javascript object chart</p>
 
 			<h2 id="javascript-innerhtml">InnerHTML</h2>
 			<p>InnerHTML is a property that allows access to the objects html.</p>
@@ -457,6 +432,24 @@
 				<a href="index.html#php-function"><li>Functions</li></a>
 				<a href="index.html#php-comment"><li>Comments</li></a>'
 				<a href="index.html#php-general"><li>General</li></a>
+				<a href="index.html#php-ini"><li>ini</li></a>
+				<a href="index.html#php-error"><li>Errors</li></a>
+				<a href="index.html#php-date"><li>Date</li></a>
+				<a href="index.html#php-include-once"><li>Include Once</li></a>
+				<a href="index.html#include"><li>Include</li></a> 
+				<a href="index.html#php-array"><li>Arrays</li></a>
+				<a href="index.html#php-count"><li>Count</li></a>
+				<a href="index.html#php-indexed-array"><li>Indexed Array</li></a>
+				<a href="index.html#php-associative-array"><li>Associative Array</li></a>
+				<a href="index.html#php-multidimensional-array"><li>Multidimensional Array</li></a>
+				<a href="index.html#php-post"><li>Post</li></a>
+				<a href="index.html#php-superglobal"><li>Super Global</li></a>
+				<a href="index.html#php-switch"><li>Switch</li></a>
+				<a href="index.html#php-loop"><li>Loops</li></a>
+				<a href="index.html#php-session"><li>Session</li></a>
+				<a href="index.html#php-isset"><li>Isset</li></a>
+				<a href="index.html#php-heredoc"><li>heredoc</li></a>
+				<a href="index.html#php-trim"><li>Trim</li></a>
 			</div>
 			<div class="section-content">
 				<h2 id="php-variable">Variables</h2>
@@ -470,6 +463,10 @@
 
 				<h2 id="php-function">Functions</h2>
 				<p>phpinfo() displays a large table of data that tells the user about the type of PHP the web server is running.</p>
+				<p>Functions may start with an underscore, or letter, nothing else.</p>
+				<p>Function names are not case sensitive</p>
+				<p>You can create a function and give it a default value in the argument of the function.</p>
+				<p>Return does not echo by default.</p>
 
 				<h2 id="php-comment">Comments</h2>
 				<p>PHP comments may be started with <code>//, #, or /* */</code></p>
@@ -477,6 +474,103 @@
 				<h2 id="php-general">General</h2>
 				<p>All keywords in PHP are not case specific, but variable names are case specific (sensitive).</p>
 
+				<h2 id="php-ini">Ini</h2>
+				<p>an ini file is initialization file for PHP or even other languages/softwares.</p>
+
+				<h2 id="php-error"></h2>
+				<p>To turn on PHP errors, use <code>display_errors();</code></p>
+
+				<h2 id="php-date">Date</h2>
+				<p><code>date.timezone;</code> something like that is used to set the date in PHP.</p>
+
+				<h2 id="php-include-once">Include Once</h2>
+				<p><code>include_once()</code> will include one time in the code versus inlcude.</p>
+
+				<h2 id="php-include">Include</h2>
+				<p><code>Include</code> will add text to a page</p>
+
+				<h2 id="php-array">Arrays</h2>
+				<p>Use <code>$var = array(1, 2, 3);</code> to initialize an array.</p>
+
+				<h2 id="php-count">Count</h2>
+				<p><code>count()</code> will coujnt number of items in a variable (array)</p>
+
+				<h2 id="php-indexed-array">Indexed array</h2>
+				<p>An indexed array is a numbered array.</p>
+
+				<h2 id="php-associative-array">Associative Array</h2>
+				<p>An associative array uses a name value pair in an array. For example <code>Evan/Bricked</code></p>
+				<p><code>array("s" => "1")</code></p>
+
+				<h2 id="php-multidimensional-array">Multidimensional Array</h2>
+				<p>An array within an array.</p>
+
+				<h2 id="php-post">Post</h2>
+				<p><code>$_POST["Input name"]</code></p>
+				<p>$_POST is an associative array.</p>
+
+				<h2 id="php-superglobal">SuperGlobals</h2>
+				<p>Superglobals are vars that are recognized regardless of scope.</p>
+				<p>Session is a superglobal array.</p>
+
+				<h2 id="php-switch">Switch</h2>
+				<p>The switch statement is similar to a series of IF statements on the same expression. If you want to compare the same variable or expression with many other values and execute different code on each, that is what the switch statement is great for.</p>
+				<p><code>
+					switch ($i) {<br>
+					case 0:<br>
+					echo "i equals 0";<br>
+					break;<br>
+					case 1:<br>
+					echo "i equals 1";<br>
+					break;<br>
+					case 2:<br>
+					echo "i equals 2";<br>
+					break;<br>
+					}<br> 
+				</code></p>
+				<p>"If case is true, implement the code within it"</p>
+				<p><code>break;</code> will stop a switch.</p>
+
+
+				<h2 id="php-header">Header function</h2>
+				<p><code>Header()</code> will send browser a raw http header</p>
+
+				<h2 id="php-printr">Print_r()</h2>
+				<p>Displays in human viewable way.</p>
+
+				<h2 id="php-loop">Loops</h2>
+				<p>Three types of loops in php: <ol>
+					<li>For</li>
+					<li>While</li>
+					<li>Foreach</li>
+				</ol></p>
+				<p><code>foreach(array as value {}</code></p>
+
+				<h2 id="php-session">Session</h2>
+				<p><code>session_start();</code> will start session</p>
+				<p><code>$_SESSION[name]</code> accessing name variable in session.</p>
+				<p>Maintaining state is managing sessions.</p>
+				<p><code>session_unset()</code> removes session variable</p>
+				<p><code>session_destroy()</code> deletes session</p>
+				<p>Session is persisted.</p>
+
+				<h2 id="php-isset">Isset</h2>
+				<p>Will check is variable is set, or exists.</p>
+
+				<h2 id="php-heredoc">Heredoc</h2>
+				<p>Heredoc used as such <code> \<<< THEFORM <br><br><br>THEFORM</code> will be a multiline string.</p>
+
+				<h2 id="php-trim">Trim</h2>
+				<p><code>trim()</code> will take off whitespace.</p>
+
+
+				
+
+				
+
+
+
+	
 			</div>
 		</div> <!-- .section -->
 		<div class="section">
@@ -485,6 +579,15 @@
 				<a href="index.html#sql-injections"><li>Injections</li></a>
 				<a href="index.html#sql-prepared-statements"><li>Prepared Statements</li></a>
 				<a href="index.html#sql-injection"><li>SQL injection</li></a>
+				<a href="index.html#sql-general"><li>General</li></a>
+				<a href="index.html#sql-create"><li>Create</li></a>
+				<a href="index.html#sql-datatype"><li>Datatypes</li></a>
+				<a href="index.html#sql-primary-key"><li>Primary Key</li></a>
+				<a href="index.html#sql-insert"><li>Insert</li></a>
+				<a href="index.html#sql-update"><li>Update</li></a>
+				<a href="index.html#sql-delete"><li>Delete</li></a>
+				<a href="index.html#sql-select"><li>Select</li></a>
+				<a href="index.html#sql-php"><li>PHP Interaction</li></a>
 			</div>
 			<div class="section-content">
 				<h2 id="sql-injections">Injections</h2>
@@ -504,6 +607,55 @@
 				<p><span class="definition">Error-</span> is when a question/query causes error and information from that error can be gleened.</p>
 				<p><span class="definition">Union-</span>Combining two or moreSelects into single result. Useful.</p>
 				<p><span class="definition">Blind</span>Asks database true or false question and uses if page returned as asked to determine if query was valid.</p>
+
+				<h2 id="sql-general">General</h2>
+				<p>MySQL establishes databases via relationships.</p>
+				<p>Other ways of handling databases are flat file systems, and object oriented databases.</p>
+				<p>Excel is for data presentation, MySQL is for storage/organization.</p>
+				<p>PHPMyAdmin will create new and manage databases.</p>
+				<p>Colation is how MySQL stores the data (look into this)</p>
+				<p>Quotations specify text data.</p>
+				<p>MySQLi is a newer database library. MySQL is older, and PHP PDO is an alternative. Most folks in a company will use an ORMR.</p>
+				<p>Cpanel interface is a control panel for hosting account.</p>
+				<p>A CRUD application is used to create remove update and delete entries.</p>
+
+				<h2 id="sql-create">Create</h2>
+				<p><code>CREATE DATABASE</code> will create ne database</p>
+			
+				<h2 id="sql-datatype">Datatypes</h2>
+				<p>Blob is an image.</p>
+				<p>Null option turns field into a null one.</p>
+
+				<h2 id="sql-primary-key">Primary Key</h2>
+				<p>Primary key is required and gives unique id to one column in the database.</p>
+
+				<h2 id="sql-insert">INSERT</h2>
+				<p><code>INSERT INTO people (field) VALUEs (values)</code> will insert values into field of database talbe.</p>
+
+				<h2 id="sql-update">UPDATE</h2>
+				<p><code>UPDATE people SET name = "Jimmy" WHERE id = 3</code> will update primary key 3 field name to jimmy in table people.</p>
+
+				<h2 id="sql-delete">DELETE</h2>
+				<p><code>DELETE from people where id=4</code> will remove id =4 the whole row.</p>
+
+				<h2 id="sql-select">SELECT</h2>
+				<p><code>SELECT * FROM people WHERe name = "Annie"</code> will select all text from database people where the name is Annie</p>
+
+				<h2 id="sql-php">PHP interaction</h2>
+				<p>Set variables <code>$servername, $username, $password, $dbname</code></p>
+				<p>MySQLi has built in php function.</p>
+				<p><code>$conn = new mysqli ($servername, $username, $password, $dbname)<br>
+					if($conn ->connect_error){<br>
+					die("connection failed: $conn -> connection error")
+				</code></p>
+				<p>The above code will be of use when creating new sql user accounts.</p>
+
+				
+				
+
+
+
+				
 
 
 			</div>
@@ -548,6 +700,40 @@
 
 
 		</div> <!-- .section -->
+		<div class="section">
+			<h1 id="Internet-protocol-suite" class="section-header">Internet Protocol Suite</h1>
+			<ul class="table-of-contents">
+				<a href="index.html#ips-application-layer"><li>Application layer</li></a>
+				<a href="index.html#ips-transport-layer"><li>Transport Layer</li></a>
+				<a href="index.html#ips-network-layer"><li>Network Layer</li></a>
+				<a href="index.html#ips-data-link-layer"><li>Data Link Layer</li></a>
+				<a href="index.html#ips-general"><li>General</li></a>
+			</ul>
+
+			<h2 id="ips-application-layer">Application Layer</h2>		
+			<p>The application layer or processes use transport layer protocls to deliver data to destination. These layers will speak to the next layers. Examples being HTTP/TTP/SMTP/SNMP</p>
+
+			<h2 id="ips-transport-layer">Transport Layer</h2>
+			<p>The backbone to data flow between hosts. Receives data, and usually in TCP or UDP</p>
+			<p>TCP is for reliable connections, and divides data into chunks then sends. Uses timeout to let network know if it was not received.</p>
+			<p>UDP is for unreliable connections, has a simpler mechanism, and does not time out</p>
+
+			<h2 id="ips-network-layer">Network Layer</h2>
+			<p>Also known as the "Internet Layer"</p>
+			<p>Organizes movement of data on network (router)</p>
+			<p>Main protocl is IP while ICMP is also used.</p>
+
+			<h2 id="ips-data-link-layer">Data Link Layer</h2>
+			<p>Network Interface LAyer</p>
+			<p>Consists of device drivers in Operating System and network interface cards.</p>
+			<p>Takes care of communication details.</p>
+			<p>Protocols are ARP, PPP.</p>
+
+			<h2 id="ips-general">General</h2>
+			<p>Client/Server architechture.</p>
+			<p>Fourtupe is IP/port on client and server.</p>
+			<p>/etc/services</p>
+		</div>
 		<div class="section">
 			<h1 class="section-header" id="bitcoin">Bitcoin</h1>
 			<ul class="table-of-contents">
